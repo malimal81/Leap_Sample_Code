@@ -15,6 +15,8 @@
 		36CE8D271ED0D58000E67BEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36CE8D251ED0D58000E67BEF /* LaunchScreen.storyboard */; };
 		36CE8D321ED0D58000E67BEF /* Leap_Sample_CodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE8D311ED0D58000E67BEF /* Leap_Sample_CodeTests.m */; };
 		36CE8D3D1ED0D58000E67BEF /* Leap_Sample_CodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE8D3C1ED0D58000E67BEF /* Leap_Sample_CodeUITests.m */; };
+		36CE8D4D1ED0DBB700E67BEF /* NewsFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE8D4C1ED0DBB700E67BEF /* NewsFeedViewController.m */; };
+		36CE8D501ED0DEEC00E67BEF /* NewsFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE8D4F1ED0DEEC00E67BEF /* NewsFeedCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		36CE8D381ED0D58000E67BEF /* Leap_Sample_CodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Leap_Sample_CodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36CE8D3C1ED0D58000E67BEF /* Leap_Sample_CodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Leap_Sample_CodeUITests.m; sourceTree = "<group>"; };
 		36CE8D3E1ED0D58000E67BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36CE8D4B1ED0DBB700E67BEF /* NewsFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFeedViewController.h; sourceTree = "<group>"; };
+		36CE8D4C1ED0DBB700E67BEF /* NewsFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeedViewController.m; sourceTree = "<group>"; };
+		36CE8D4E1ED0DEEC00E67BEF /* NewsFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFeedCell.h; sourceTree = "<group>"; };
+		36CE8D4F1ED0DEEC00E67BEF /* NewsFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeedCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		36CE8D161ED0D58000E67BEF /* Leap_Sample_Code */ = {
 			isa = PBXGroup;
 			children = (
+				36CE8D4A1ED0DB4D00E67BEF /* NewsFeedViewController */,
 				36CE8D1A1ED0D58000E67BEF /* AppDelegate.h */,
 				36CE8D1B1ED0D58000E67BEF /* AppDelegate.m */,
 				36CE8D1D1ED0D58000E67BEF /* ViewController.h */,
@@ -110,6 +117,8 @@
 				36CE8D251ED0D58000E67BEF /* LaunchScreen.storyboard */,
 				36CE8D281ED0D58000E67BEF /* Info.plist */,
 				36CE8D171ED0D58000E67BEF /* Supporting Files */,
+				36CE8D4E1ED0DEEC00E67BEF /* NewsFeedCell.h */,
+				36CE8D4F1ED0DEEC00E67BEF /* NewsFeedCell.m */,
 			);
 			path = Leap_Sample_Code;
 			sourceTree = "<group>";
@@ -138,6 +147,15 @@
 				36CE8D3E1ED0D58000E67BEF /* Info.plist */,
 			);
 			path = Leap_Sample_CodeUITests;
+			sourceTree = "<group>";
+		};
+		36CE8D4A1ED0DB4D00E67BEF /* NewsFeedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				36CE8D4B1ED0DBB700E67BEF /* NewsFeedViewController.h */,
+				36CE8D4C1ED0DBB700E67BEF /* NewsFeedViewController.m */,
+			);
+			name = NewsFeedViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +294,8 @@
 				36CE8D1F1ED0D58000E67BEF /* ViewController.m in Sources */,
 				36CE8D1C1ED0D58000E67BEF /* AppDelegate.m in Sources */,
 				36CE8D191ED0D58000E67BEF /* main.m in Sources */,
+				36CE8D501ED0DEEC00E67BEF /* NewsFeedCell.m in Sources */,
+				36CE8D4D1ED0DBB700E67BEF /* NewsFeedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
