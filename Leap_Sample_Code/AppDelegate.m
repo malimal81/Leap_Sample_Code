@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "NewsDataManager.h"
+
 
 @interface AppDelegate ()
 
